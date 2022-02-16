@@ -30,7 +30,7 @@ public class TestGreeter {
   public void greetShouldIncludeGreetingPhrase() {
     String someone = "World";
 
-    assertThat(greeter.greet(someone).length(), islessThan(greaterThan(someone.length())));
+    assertThat(greeter.greet(someone).length(),(greaterThan(someone.length())));
   }
 
     @Test
